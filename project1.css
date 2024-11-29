@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.topics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topic {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.topic img {
+    width: 100%;
+}
+
+.how-it-works {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.step {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.step img {
+    width: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
